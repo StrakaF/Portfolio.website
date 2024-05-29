@@ -26,6 +26,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const hiddenElements = document.querySelectorAll(".hidden");
   hiddenElements.forEach((el) => observer.observe(el));
 
+// Form 
+function sendMail() {
+  let parms = {
+    name : document.getElementById("name").value,
+    email : document.getElementById("email").value,
+    message : document.getElementById("message").value
+  }
+
+  emailjs.send("service_we9uasi","template_bt0ymef",parms).then(alert("Email sent!"));
+}
 
 
 
