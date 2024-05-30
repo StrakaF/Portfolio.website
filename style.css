@@ -29,7 +29,7 @@ section {
 
 section#article {
   min-height: auto; 
-  height: 400px;  
+  height: 600px;  
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -118,7 +118,9 @@ a.btn {
   position: relative; /* Element je situovaný nad všetky iné elementy*/
 }
 
-
+#tech-stack {
+  padding-top: 40px;
+}
 @media (max-width: 850px) {
 
   #article {
