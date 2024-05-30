@@ -111,7 +111,12 @@ img {
   transition-delay: 500ms; 
 }
 
-
+/* Odkaz je klikatelný aj pri 767px a menej*/
+a.btn {
+  cursor: pointer;
+  z-index: 10;
+  position: relative; /* Element je situovaný nad všetky iné elementy*/
+}
 
 
 @media (max-width: 850px) {
@@ -136,6 +141,8 @@ img {
   .macPng {
     display: none;
   }
+
+  
 }
 
 @media (max-width: 992px) {  
