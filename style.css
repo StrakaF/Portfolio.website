@@ -6,6 +6,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+
 #main-nav {
   background-color: transparent;
   backdrop-filter: blur(10px);
